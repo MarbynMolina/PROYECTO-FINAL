@@ -1,0 +1,71 @@
+.large-text {
+  font-size: 22px;
+  text-align: justify;
+}
+
+.banner-top {
+  background: url(/img/bannerTop.jpg);
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#carouselExampleIndicators {
+    margin-top: 100px;
+    height: 480px;
+  }
+.dp-movil {
+  display: none !important;
+}
+.dp-lg {
+  display: block;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background-color: #bbbbbbc4;
+  text-decoration: underline;
+}
+#menuStiky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  z-index: 1;
+  border-bottom: 2px solid #0231ff;
+  backdrop-filter: saturate(200%) blur(30px);
+  background-color: hsl(10, 94%, 50%) !important;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 3px 12px 1px;
+}
+
+.banner-background {
+  position: fixed;
+  top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .dp-movil {
+    display: block !important;
+  }
+  #carouselExampleIndicators {
+    margin-top: 130px;
+    height: 480px;
+  }
+  
+
+  .dp-lg {
+    display: none !important;
+  }
+}
